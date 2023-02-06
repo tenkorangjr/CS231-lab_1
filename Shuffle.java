@@ -18,9 +18,7 @@ public class Shuffle {
             arr0.add(randomNumber);
         }
 
-        for (int val : arr0) {
-            System.out.println(val);
-        }
+        System.out.println(arr0);
 
         ArrayList<Integer> arr1 = new ArrayList<>();
         for (int i = 0; i < arr0.size(); i++) {
@@ -57,9 +55,7 @@ public class Shuffle {
         }
 
         System.out.println(arr0.isEmpty());
-        for (int val : res) {
-            System.out.println(val);
-        }
+        System.out.println(res);
 
     }
 }
